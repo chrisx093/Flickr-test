@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgimg{
+    background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/ybs2023/Kris_Peterson_Back_to_The_Future.jpg);
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    /* padding: 10px; */
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C2C2B;
+    position: fixed;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.sign{
+    padding: 4px 15px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+}
+.login{
+    color: white;
+    text-decoration: none;
+}
+.find{
+    margin-top: 90px;
+    justify-content: center;
+}
+.start{
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.about{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.in{
+    width: 25rem;
+}
